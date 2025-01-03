@@ -128,3 +128,14 @@ Get the service from the `marketing` namespace:
 ```bash
 kubectl get svc -n=marketing
 ```
+
+## 20. To Create pod using image 
+
+```bash 
+kubectl run nginx --image=nginx
+```
+
+## 21.  create a new pod with your changes using the temporary file
+```bash
+kubectl create -f /tmp/kubectl-edit-ccvrq.yaml
+```
